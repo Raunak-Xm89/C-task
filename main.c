@@ -343,7 +343,7 @@ void old(){
     scanf("%d", &p2);
     printf("Enter the age of person 3: \n");
     scanf("%d", &p3);
-    if(p1==p2==p3){
+    if(p1==p2 && p2==p3){
         printf("All of the person are of same age\n");
     } else if(p1>p2){
         if (p1>p3){
